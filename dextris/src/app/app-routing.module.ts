@@ -13,6 +13,18 @@ import { ConsultingComponent } from './sourservices/consulting/consulting.compon
 import { StaffaugmentationComponent } from './sourservices/staffaugmentation/staffaugmentation.component';
 import { SoftwaredevelopmentComponent } from './sourservices/softwaredevelopment/softwaredevelopment.component';
 
+
+
+import { PrivacyComponent } from './privacy/privacy.component';
+
+
+import { CoinpayComponent } from './coinpay/coinpay.component';
+
+
+import { StreamcastComponent } from './streamcast/streamcast.component';
+
+
+
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   {path:'home',component:HomeComponent},
@@ -27,9 +39,10 @@ const routes: Routes = [
   {path:'consulting',component:ConsultingComponent},
   {path:'staff',component:StaffaugmentationComponent},
   {path:'software',component:SoftwaredevelopmentComponent},
+{path:'privacypolicy',component:PrivacyComponent},
 
-
-
+{path:'coinpay',component:CoinpayComponent},
+{path:'streamcast',component:StreamcastComponent},
 
 ];
 
